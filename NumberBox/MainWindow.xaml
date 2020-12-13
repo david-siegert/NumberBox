@@ -1,0 +1,46 @@
+﻿<Window
+    x:Class="NumberBox.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:NumberBox"
+    mc:Ignorable="d"
+    WindowStartupLocation="CenterScreen"
+    Title="MainWindow"
+    Height="250"
+    Width="400">
+    <Grid>
+
+        <DockPanel>
+
+            <StackPanel
+                HorizontalAlignment="Center"
+                Height="28"
+                Orientation="Horizontal">
+
+                <Button
+                    Content="&#xE109;"
+                    FontFamily="Segoe UI Symbol"
+                    Height="28"
+                    Width="28" />
+
+                <TextBox
+                    Name="TBX_NUMBER"
+                    Margin="8,0,8,0"
+                    Width="100"
+                    Height="28" />
+
+                <Button
+                    Content="&#xE108;"
+                    FontFamily="Segoe UI Symbol"
+                    Height="28"
+                    Width="28" />
+
+            </StackPanel>
+
+        </DockPanel>
+
+
+    </Grid>
+</Window>
