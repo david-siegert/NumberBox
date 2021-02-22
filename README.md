@@ -1,2 +1,6 @@
-# NumberBox
-.NetFramework WPF TextBox tailord to many of the needs of number input (integers, real number, sign, units etc). With plans to create custom Framework element.
+# What is NumberBox?
+NumberBox is .NET WPF TextBox extended for number validation (culture, integer, double, positive, negative,...), units and buttons to increment or decrement the value.
+
+# Completed ![5](https://progress-bar.dev/5/)
+ 1 - 
+ 2 - 
